@@ -1,7 +1,17 @@
 ﻿@{
+    // dentro dessas chaves pode ser colocado código c# porém não é comum isso
     ViewData["Title"] = "About";
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
 
-<p>Use this area to provide additional information.</p>
+
+<p> Professor @ViewData["Professor"].</p>
+<p> Student @ViewData["Student"].</p>
+<address>
+          <strong>
+                  More information 
+          </strong>
+          <a href="https://localhost:44390/home"> localhost:44390/home 
+          </a>
+</address>
